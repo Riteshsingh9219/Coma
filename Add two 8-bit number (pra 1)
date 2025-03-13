@@ -1,0 +1,26 @@
+1A....
+
+
+
+MVI A,35H
+MVI B,12H
+ADD B
+MOV C,A
+STA 2060H
+HLT
+
+
+
+
+
+
+2B....
+
+
+MVI A,35H
+MVI B,12H
+ADD B
+MOV C,A
+STA 2060H
+HLT
+
