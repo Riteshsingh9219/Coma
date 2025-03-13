@@ -1,0 +1,22 @@
+  MVI A,00H
+  MVI B,04H 
+  ADD B 
+  ADD B 
+  ADD B 
+  STA 2060H
+  HLT
+
+
+
+use looping........
+
+
+
+MVI A,00H
+MVI B,04H
+MVI C,03H
+NXT:ADD B
+DCR C
+JNZ NXT
+STA 2060H
+HLT 
