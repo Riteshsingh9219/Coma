@@ -1,0 +1,10 @@
+               LXI H, 2050H
+               LXI D,2060H
+               MVI C,08H
+               NXT:MOV  A,M
+               STAX  D
+               INX H
+               INX D
+               DCR C
+               JNZ NXT
+               HLT
